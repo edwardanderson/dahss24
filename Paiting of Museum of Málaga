@@ -11,4 +11,4 @@
     dc: format "oil on canvas";
     dc: subject <https://www.wikidata.org/wiki/Q506>,
 
-      <https://www.wikidata.org/wiki/Q506> :label "flower" .
+<https://www.wikidata.org/wiki/Q506> :label "flower" .
