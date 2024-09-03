@@ -1,0 +1,21 @@
+# One.
+
+<http://www.wikidata.org/entity/Q12418>
+    :creator "Leo" ;
+    :description [
+        :value "Weird smiley lady" ;
+        :creator "Edward"
+        :date "2024-09-03"
+    ] .
+
+# Two
+
+<http://www.wikidata.org/entity/Q12418>
+    :creator "Leo" ;
+    :description <efbdsiu/1> .
+
+
+<efbdsiu/1>
+     :value "Weird smiley lady" ;
+    :creator "Edward"
+    :date "2024-09-03" .

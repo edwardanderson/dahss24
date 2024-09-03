@@ -1,16 +1,14 @@
-@prefix : <http://dahss24.com/>
+@prefix : <https://github.dev/edwardanderson/dahss24/>
 @prefix dc: <http://purl.org/dc/elements/1.1/>
 
-# Linky
 <https://www.coleccionmuseoruso.es/wp-content/uploads/2020/03/GRIGORIY-VERKHOVSKIY.-En-el-rodaje-de-Stalker-1978-4-1024x1024.jpg>
     dc:creator <https://www.imdb.com/name/nm1475829/> ;
     dc:title "En el rodaje de Stalker" ;
     dc:date "1978" ;
     dc:subject <https://www.wikidata.org/entity/Q23397> ,
         <https://www.wikidata.org/entity/Q6581097> ,
-        <https://www.wikidata.org/entity/Q1415274>
-
-
+        <https://www.wikidata.org/entity/Q1415274> ,
+        :Zone .
 
 #our identifier for 
-:label "in the Zone" .
+:Zone :label "in the Zone" .
