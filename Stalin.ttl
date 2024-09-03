@@ -1,0 +1,15 @@
+# Stalin
+
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://rusmuseumvrm.ru/data/vtours/socrealism/index.html?lp=3&obj> 
+    dc:creator <http://vocab.getty.edu/ulan/500080957>;
+    dc:title "Retrato de I.V. Stalin";
+    dc:date "1947-1948";
+    dc:subject <https://www.wikidata.org/wiki/Q855>;
+    dc:medium <https://www.wikidata.org/wiki/Q174705>;
+    dc:relation <https://commons.wikimedia.org/wiki/File:State_portrait_of_Stalin.jpg>
+
+
+
