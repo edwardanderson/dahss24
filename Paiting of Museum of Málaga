@@ -9,6 +9,6 @@
     dc:date "1860-1900";
     dc: lenguage "spanish";
     dc: format "oil on canvas";
-    dc: subject <https://www.wikidata.org/wiki/Q506>
+    dc: subject <https://www.wikidata.org/wiki/Q506>,
 
       <https://www.wikidata.org/wiki/Q506> :label "flower" .
