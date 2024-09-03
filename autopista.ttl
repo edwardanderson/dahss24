@@ -1,0 +1,12 @@
+@prefix : <http://dahss24.com/>
+@prefix dc: <http://purl.org/dc/elements/1.1/>
+
+# Linky
+<https://www.coleccionmuseoruso.es/wp-content/uploads/2024/05/autopista.jpeg>
+    dc:creator <http://vocab.getty.edu/ulan/500118000> ;
+    dc:title "Autopista U.S.A." ;
+    dc:date "1935" ;
+    dc:subject <http://www.wikidata.org/entity/Q1420> ,
+        <https://vocab.getty.edu/aat/300417328> .
+
+<http://www.wikidata.org/entity/Q1420> :label "cars" .
