@@ -5,7 +5,7 @@
 
 <http://rusmuseumvrm.ru/data/vtours/socrealism/index.html?lp=3&obj> 
     dc:creator <http://vocab.getty.edu/ulan/500080957>;
-    dc:title "Retrato de I.V. Stalin";
+    dc:title "Retrato de I.V. Stalin" @sp;
     dc:date "1947-1948";
     dc:subject <http://www.wikidata.org/entity/Q855>;
     dc:medium <http://www.wikidata.org/entity/Q174705>;
