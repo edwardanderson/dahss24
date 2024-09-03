@@ -1,0 +1,15 @@
+@prefix : <http://dahss24.com/>
+@prefix dc: <http://purl.org/dc/elements/1.1/>
+
+# Linky
+
+<https://www.museosdeandalucia.es/image/journal/article?img_id=2078830&t=1528386945751>
+dc:creator <https://es.wikipedia.org/wiki/Pedro_S%C3%A1enz_S%C3%A1enz>
+
+    dc:title "Tumba del poeta" ;
+    dc:date "1860-1900";
+    dc: lenguage "spanish";
+    dc: format "oil on canvas";
+    dc: subject <https://www.wikidata.org/wiki/Q506>
+
+      <https://www.wikidata.org/wiki/Q506> :label "flower" .
