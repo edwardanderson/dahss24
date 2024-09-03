@@ -1,7 +1,7 @@
 @prefix : <http://dahss24.com/>
 @prefix dc: <http://purl.org/dc/elements/1.1/>
 
-# Linky
+# Museo de Málaga
 
 <https://www.museosdeandalucia.es/image/journal/article?img_id=2078830&t=1528386945751>
 dc:creator <https://es.wikipedia.org/wiki/Pedro_S%C3%A1enz_S%C3%A1enz>
