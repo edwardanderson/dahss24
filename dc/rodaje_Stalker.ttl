@@ -1,5 +1,5 @@
-@prefix : <https://github.dev/edwardanderson/dahss24/>
-@prefix dc: <http://purl.org/dc/elements/1.1/>
+@prefix : <https://github.dev/edwardanderson/dahss24/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 <https://www.coleccionmuseoruso.es/wp-content/uploads/2020/03/GRIGORIY-VERKHOVSKIY.-En-el-rodaje-de-Stalker-1978-4-1024x1024.jpg>
     dc:creator <https://www.imdb.com/name/nm1475829/> ;

@@ -1,5 +1,5 @@
-@prefix : <http://dahss24.com/>
-@prefix dc: <http://purl.org/dc/elements/1.1/>
+@prefix : <http://dahss24.com/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 # Linky
 <https://www.coleccionmuseoruso.es/wp-content/uploads/2024/05/autopista.jpeg>

@@ -2,6 +2,7 @@
 
 @prefix : <https://github.dev/edwardanderson/dahss24/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://rusmuseumvrm.ru/data/vtours/socrealism/index.html?lp=3&obj> 
     dc:creator <http://vocab.getty.edu/ulan/500080957>;
