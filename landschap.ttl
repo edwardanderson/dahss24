@@ -1,6 +1,5 @@
-@base
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcmit: <http://purl.org/dc/dcmitype/>
+@prefix dcmit: <http://purl.org/dc/dcmitype/> .
 
 <https://www.rijksmuseum.nl/nl/collectie/SK-A-4688>
     dc:type dcmit:PhysicalObject ;

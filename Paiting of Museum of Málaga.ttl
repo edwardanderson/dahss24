@@ -1,0 +1,17 @@
+@prefix : <http://dahss24.com/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Museo de Málaga
+
+<https://www.museosdeandalucia.es/image/journal/article?img_id=2078830&t=1528386945751>
+    dc:creator <http://www.wikidata.org/entity/Q6070203> ;
+    dc:title "Tumba del poeta" ;
+    dc:date "1860-1900" ;
+    dc:language "spanish" ;
+    dc:format "oil on canvas" ;
+    foaf:depicts <https://www.wikidata.org/wiki/Q506> .
+
+<https://www.wikidata.org/wiki/Q506> :label "flower" .
+
+<https://es.wikipedia.org/wiki/Pedro_S%C3%A1enz_S%C3%A1enz> dc:description <http://www.wikidata.org/entity/Q6070203> .
