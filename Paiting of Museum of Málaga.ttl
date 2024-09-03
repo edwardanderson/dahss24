@@ -9,7 +9,6 @@
     dc:creator <http://www.wikidata.org/entity/Q6070203> ;
     dc:title "Tumba del poeta" ;
     dc:date "1860-1900" ;
-    dc:language "spanish" ;
     dc:format "oil on canvas" ;
     foaf:depicts <https://www.wikidata.org/wiki/Q506> .
 
@@ -17,4 +16,5 @@
 
 <https://es.wikipedia.org/wiki/Pedro_S%C3%A1enz_S%C3%A1enz> 
     dc:type <http://purl.org/dc/dcmitype/Text> ;
+    dc:language "spanish" ;
     dc:description <http://www.wikidata.org/entity/Q6070203> .
