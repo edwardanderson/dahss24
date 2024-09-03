@@ -1,0 +1,5 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://www.rijksmuseum.nl/nl/collectie/SK-A-4688>
+    dc:title "Italiaans landschap met parasoldennen"@nl ;
+    dc:subject <http://www.wikidata.org/entity/Q1420> .
