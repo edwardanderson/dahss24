@@ -5,6 +5,7 @@
 # Museo de Málaga
 
 <https://www.museosdeandalucia.es/image/journal/article?img_id=2078830&t=1528386945751>
+    dc:type <http://purl.org/dc/dcmitype/Image> ;
     dc:creator <http://www.wikidata.org/entity/Q6070203> ;
     dc:title "Tumba del poeta" ;
     dc:date "1860-1900" ;
@@ -14,4 +15,6 @@
 
 <https://www.wikidata.org/wiki/Q506> :label "flower" .
 
-<https://es.wikipedia.org/wiki/Pedro_S%C3%A1enz_S%C3%A1enz> dc:description <http://www.wikidata.org/entity/Q6070203> .
+<https://es.wikipedia.org/wiki/Pedro_S%C3%A1enz_S%C3%A1enz> 
+    dc:type <http://purl.org/dc/dcmitype/Text> ;
+    dc:description <http://www.wikidata.org/entity/Q6070203> .
