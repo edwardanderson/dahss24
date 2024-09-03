@@ -1,12 +1,11 @@
-@prefix: <http://dahss24.com/>.
-@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix : <https://github.dev/edwardanderson/dahss24/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-# Linky
-<https://www.coleccionmuseoruso.es/wp-content/uploads/2023/09/suite-saltimbanquis.jpg>;
-    dc:creator <http://vocab.getty.edu/ulan/500009666>;
-    dc:title "El almuerzo frugal (Le repas frugal)." @es;
-    dc:date '1904';
-    dc:subject <https://www.wikidata.org/entity/Q219160>, 
-        <https://www.wikidata.org/entity/Q12896105>.
+<https://www.coleccionmuseoruso.es/wp-content/uploads/2023/09/suite-saltimbanquis.jpg>
+    dc:creator <http://vocab.getty.edu/ulan/500009666> ;
+    dc:title "El almuerzo frugal (Le repas frugal)."@es ;
+    dc:date "1904" ;
+    dc:subject <https://www.wikidata.org/entity/Q219160> , 
+        <https://www.wikidata.org/entity/Q12896105> .
 
-<https://www.wikidata.org/entity/Q192077> :label <melancholia>.
+<https://www.wikidata.org/entity/Q192077> :label "melancholia" .
