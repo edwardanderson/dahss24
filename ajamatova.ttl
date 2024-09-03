@@ -1,11 +1,14 @@
-prefix dc: <http://purl.org/dc/elements/1.1/>
-prefix DCMIType: <http://purl.org/dc/terms/DCMIType>
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix DCMIType: <http://purl.org/dc/terms/DCMIType/> .
 
-# Linky
 <https://www.coleccionmuseoruso.es/wp-content/uploads/2019/06/ajmatova-anna-3-1024x1024.jpg>
-    dc:creator <http://vocab.getty.edu/page/ulan/500022846>
-    dc:title "Retrato de Anna Ajmátova" @es
-    dc:date "1915"
-    dc:subject <https://www.wikidata.org/entity/Q134307> , <https://www.wikidata.org/wiki/Q49757> , 
-    <https://www.wikidata.org/wiki/Q107230508>, <https://www.wikidata.org/wiki/Q80440>
-    DCMIType: <https://www.wikidata.org/entity/Q134307>
+    dc:creator <http://vocab.getty.edu/page/ulan/500022846> ;
+    dc:title "Retrato de Anna Ajmátova"@es ;
+    dc:date "1915" ;
+    dc:subject <https://www.wikidata.org/entity/Q134307> ,
+        <https://www.wikidata.org/entity/Q49757> , 
+        <https://www.wikidata.org/entity/Q107230508>,
+        <https://www.wikidata.org/entity/Q80440> ,
+    dc:type <https://www.wikidata.org/entity/Q134307> .
+
+<https://www.wikidata.org/entity/Q134307> a DCMIType:PhysicalObject .
