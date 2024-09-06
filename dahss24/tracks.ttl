@@ -11,6 +11,7 @@
 dahss24:TrackA a dc:Event ;
     dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
     # TODO: swap Leo's DAHSS24 URI for his Orcid.
+    # Remember to replace every mention!
     dc:creator dahss24:Leo
 
 dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
