@@ -11,3 +11,5 @@ dahss24:Gabriela a schema:Person ;
     schema:name "Gabriela" ;
     schema:memberOf <https://chc.ibl.waw.pl/en/>;
     schema:knowsLanguage "en" , "pl" , "fr" .
+
+#test
