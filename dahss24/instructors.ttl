@@ -9,18 +9,38 @@
 
 dahss24:Instructors24 a schema:Organization ;
     schema:member dahss24:Edward ;
+    schema:member <https://orcid.org/0000-0003-1774-5175> ;
+    schema:member <https://orcid.org/0000-0002-9246-6494> ;
+    schema:member dahss24:Eryk ;
 .
 
 <https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
     dc:subject dahss24:Instructors24 ;
 .
 
-dahss24:Edward Anderson
+dahss24:EdwardAnderson
     rel:employedBy <http://www.wikidata.org/entity/Q190804> .
     schema:name "Edward Anderson" ;
     schema:memberOf dahss24:Instructors24 ;
     foaf:based_near <http://www.wikidata.org/entity/Q727> ;
 .
+<https://orcid.org/0000-0003-1774-5175>
+    rel:employedBy <http://www.wikidata.org/entity/Q35794> .
+    schema:name "Leonardo Impett" ;
+    schema:memberOf dahss24:Instructors24 ;
+    foaf:based_near <http://www.wikidata.org/entity/Q350> ;
+
+<https://orcid.org/0000-0002-9246-6494>
+    rel:employedBy <http://www.wikidata.org/entity/Q206702> , <http://www.wikidata.org/entity/Q6039122> ;
+    schema:name "Iacopo Neri" ;
+    schema:memberOf dahss24:Instructors24 ;
+    foaf:based_near <http://www.wikidata.org/entity/Q1492> ;
+    
+dahss24:Eryk
+    rel:employedBy <http://www.wikidata.org/entity/Q35794> .
+    schema:name "Eryk Salvaggio" ;
+    schema:memberOf dahss24:Instructors24 ;
+    foaf:based_near <http://www.wikidata.org/entity/Q350> ;
 
 dahss24:Instructors24 a schema:Organization ;
     schema:member dahss24: Leonardo Impett ;
