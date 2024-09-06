@@ -31,8 +31,8 @@ dahss24:Instructors24 a schema:Organization ;
 .
 
 dahss24:Leonardo Impett
-rel:employedBy <https://es.wikipedia.org/wiki/Universidad_de_Cambridge> .
+rel:employedBy <https://www.wikidata.org/wiki/Q35794> .
     schema:name "Leonardo Impett" ;
     schema:memberOf dahss24:Instructors24 ;
-    foaf:based_near <https://es.wikipedia.org/wiki/Londres> ;
+    foaf:based_near <https://www.wikidata.org/wiki/Q84> ;
 .
