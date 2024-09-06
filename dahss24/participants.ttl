@@ -9,6 +9,5 @@
 
 dahss24:Gabriela a schema:Person ;
     schema:name "Gabriela" ;
-    # TODO: institution URI please.
-    schema:memberOf ... ;
-    schema:knowsLanguage "en" , "pl" , "fr" ;
+    schema:memberOf <https://chc.ibl.waw.pl/en/>;
+    schema:knowsLanguage "en" , "pl" , "fr" .
