@@ -7,4 +7,17 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
 
-dahss24:Edward rel:employedBy <http://www.wikidata.org/entity/Q190804> .
+dahss24:Instructors24 a schema:Organization ;
+    schema:member dahss24:Edward ;
+.
+
+<https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
+    dc:subject dahss24:Instructors24 ;
+.
+
+dahss24:Edward
+    rel:employedBy <http://www.wikidata.org/entity/Q190804> .
+    schema:name "Edward Anderson" ;
+    schema:memberOf dahss24:Instructors24 ;
+    foaf:based_near <http://www.wikidata.org/entity/Q727> ;
+.

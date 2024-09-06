@@ -1,3 +1,6 @@
+# Order the resources consistently. 
+
+
 @base <https://dahss.iarthislab.eu/2024/kg/> .
 @prefix dahss24: <https://dahss.iarthislab.eu/2024/kg/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -19,7 +22,14 @@ dahss24:SummerSchool24 a dcmitype:Event ;
     dc:hasPart dahss24:TrackA , dahss24:TrackB ;
     dc:language "en" ;
     # TODO: Please add or mint URIs for attendees.
-    schema:attendee <https://hcommons.org/members/airun72/> , dahss24:Edward , dahss24:Gabriela
+    schema:attendee <https://hcommons.org/members/airun72/> , dahss24:Edward , dahss24:Gabriela ;
+.
+
+<https://www.uma.es/sala-de-prensa/noticias/comeinzan-las-jornadas-internacionales-dedicadas-la-interaccion-entre-las-tecnologias-y-la-cultura/> schema:about dahss24:SummerSchool24 ;
+    dc:type <https://vocab.getty.edu/aat/300026437> ;
+.
+
+<https://vocab.getty.edu/aat/300026437> schema:name "press release" .
 
 <http://www.wikidata.org/entity/Q958650>
     a schema:Organization ;
@@ -27,30 +37,26 @@ dahss24:SummerSchool24 a dcmitype:Event ;
     schema:name "University of Malaga"@en ;
     schema:name "Universidad de Málaga"@es ;
     schema:name "Uniwersytet w Maladze"@pl ;
-    rel:employerOf <https://hcommons.org/members/airun72/> 
+    rel:employerOf <https://hcommons.org/members/airun72/> ;
+.
 
 <https://hcommons.org/members/airun72/>
     a dc:Person ;
     schema:name "Nuria" ;
     rel:employedBy <http://www.wikidata.org/entity/Q958650> ;
-    schema:knowsLanguage "es" , "en"
+    schema:knowsLanguage "es" , "en" ;
+.
 
 
 <https://dahss.iarthislab.eu/2024> a foaf:Document .
 
 .
 
-dahss24:Edward schema:name "Edward Anderson" ;
-    schema:memberOf dahss24:Instructors24 ;
-.
 
-dahss24:Instructors24 a schema:Organization ;
-    schema:member dahss24:Edward ;
-.
 
-<https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
-    dc:subject dahss24:Instructors24 ;
-.
+<http://www.wikidata.org/entity/Q727> schema:name "Amsterdam" .
+
+
 
 <http://www.wikidata.org/entity/Q190804> schema:name "Rijksmuseum"@en .
 
