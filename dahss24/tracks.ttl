@@ -27,7 +27,8 @@ dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
 # What's the BCP47 or ISO 639-1 code for Latin?
 oclc:318875126 schema:name "Metamorphosis Insectorum Surinamensium"@...
 
-<https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie .
+<https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie ;
+    schema:name "Almost All the Art in the Rijksmuseum" .
 
 <https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> ;
 
