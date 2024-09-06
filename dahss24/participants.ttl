@@ -7,10 +7,34 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
 
-dahss24:Gabriela a schema:Person ;
+dahss24:Gabriela a schema:person ;
     schema:name "Gabriela" ;
     schema:memberOf <https://chc.ibl.waw.pl/en/>;
     schema:knowsLanguage "en" , "pl" , "fr" .
+<https://chc.ibl.waw.pl/en/> dc:name "Centrum Humanistyki Cyfrowej"@pl.
 
-#test abj
+dahss24:Adriana a schema:person;
+    schema:name "Adriana";
+    schema:memberOf <http://www.wikidata.org/entity/Q958650>;
+    schema:knowsLanguage "en", "es".
+<http://www.wikidata.org/entity/Q958650> dc:name "University of Malaga"@en.
 
+dahss24:Alessia a schema:person;
+    schema:name "Alessia";
+    schema:memberOf <http://www.wikidata.org/entity/Q209344>;
+    schema:knowsLanguage "en", "it".
+<http://www.wikidata.org/entity/Q209344> dc:name "Sapienza University of Rome"@en.
+
+dahss24:Ana a schema:person;
+    schema:name "Ana";
+    schema:memberOf <http://www.wikidata.org/entity/Q29671>;
+    schema:knowsLanguage "en", "sp".
+<http://www.wikidata.org/entity/Q29671> dc:name "University of Aveiro"@en.
+
+dahss24:Antonio a schema:person;
+    schema:name "Antonio";
+    schema:memberOf <http://www.wikidata.org/entity/Q219694>;
+    schema:knowsLanguage "es", "en".
+<http://www.wikidata.org/entity/Q219694> dc:name "Complutense University of Madrid".
+
+dahss24:
