@@ -1,9 +1,11 @@
 @base <https://dahss.iarthislab.eu/2024/kg/> .
 @prefix dahss24: <https://dahss.iarthislab.eu/2024/kg/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
-@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
+@prefix schema: <https://schema.org/> .
 
 # Think about last year...
 dahss24:SummerSchool23 a dcmitype:Event .
@@ -36,28 +38,6 @@ dahss24:SummerSchool24 a dcmitype:Event ;
 
 <https://dahss.iarthislab.eu/2024> a foaf:Document .
 
-dahss24:TrackA a dc:Event ;
-    dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
-    # TODO: swap Leo's DAHSS24 URI for his Orcid.
-    dc:creator dahss24:Leo
-
-dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
-    dc:title "Art on the Web: Creating Cultural Heritage Knowledge Networks"@en ;
-    schema:perfomer dahss24:Edward ;
-    dc:subject <http://www.wikidata.org/entity/Q54837> , <http://www.wikidata.org/entity/Q54872> ;
-    # TODO: Please add or mint URIs for attendees.
-    schema:attendee <https://hcommons.org/members/airun72/> , dahss24:Edward
-    schema:workPresented <https://www.youtube.com/watch?v=o1fq-5wsaYs> 
-
-<https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie .
-
-<https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> ;
-
-dahss24:Gabriela a schema:Person ;
-    schema:name "Gabriela" ;
-    # TODO: institution URI please.
-    schema:memberOf ... ;
-    schema:knowsLanguage "en" , "pl" , "fr" ;
 .
 
 dahss24:Edward schema:name "Edward Anderson" ;

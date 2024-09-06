@@ -7,8 +7,4 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
 
-dahss24:Gabriela a schema:Person ;
-    schema:name "Gabriela" ;
-    # TODO: institution URI please.
-    schema:memberOf ... ;
-    schema:knowsLanguage "en" , "pl" , "fr" ;
+dahss24:Edward rel:employedBy <http://www.wikidata.org/entity/Q190804> .
