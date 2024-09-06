@@ -5,10 +5,13 @@
 @prefix schema: <https://schema.org/> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
 
-dahss24:SummerSchool a dcmitype:Event ;
+# Think about last year...
+dahss24:SummerSchool23 a dcmitype:Event .
+
+dahss24:SummerSchool24 a dcmitype:Event ;
     dc:type <http://www.wikidata.org/entity/Q647882> ;
     dc:date "2024-09-02/2024-09-07"^^edtf:Interval ;
-    foaf:homepage <https://dahss.iarthislab.eu/2024>
+    foaf:homepage <https://dahss.iarthislab.eu/2024> ;
     schema:organizer <http://www.wikidata.org/entity/Q958650> ;
     dc:title "Sustainability and Politics of AI"@en ;
     dc:hasPart dahss24:TrackA , dahss24:TrackB ;
@@ -38,12 +41,15 @@ dahss24:TrackA a dc:Event ;
     # TODO: swap Leo's DAHSS24 URI for his Orcid.
     dc:creator dahss24:Leo
 
-dahss24:TrackB a dc:Event ;
+dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
     dc:title "Art on the Web: Creating Cultural Heritage Knowledge Networks"@en ;
     schema:perfomer dahss24:Edward ;
     dc:subject <http://www.wikidata.org/entity/Q54837> , <http://www.wikidata.org/entity/Q54872> ;
     # TODO: Please add or mint URIs for attendees.
     schema:attendee <https://hcommons.org/members/airun72/> , dahss24:Edward
+    schema:workPresented <https://www.youtube.com/watch?v=o1fq-5wsaYs> 
+
+<https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie .
 
 <https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> ;
 
@@ -51,9 +57,20 @@ dahss24:Gabriela a schema:Person ;
     schema:name "Gabriela" ;
     # TODO: institution URI please.
     schema:memberOf ... ;
-    schema:knowsLanguage "en" , "pl" , "fr"
+    schema:knowsLanguage "en" , "pl" , "fr" ;
+.
 
-dahss24:Edward schema:name "Edward Anderson" .
+dahss24:Edward schema:name "Edward Anderson" ;
+    schema:memberOf dahss24:Instructors24 ;
+.
+
+dahss24:Instructors24 a schema:Organization ;
+    schema:member dahss24:Edward ;
+.
+
+<https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
+    dc:subject dahss24:Instructors24 ;
+.
 
 <http://www.wikidata.org/entity/Q190804> schema:name "Rijksmuseum"@en .
 
