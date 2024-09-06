@@ -15,7 +15,7 @@ dahss24:Instructors24 a schema:Organization ;
     dc:subject dahss24:Instructors24 ;
 .
 
-dahss24:Edward
+dahss24:Edward Anderson
     rel:employedBy <http://www.wikidata.org/entity/Q190804> .
     schema:name "Edward Anderson" ;
     schema:memberOf dahss24:Instructors24 ;
