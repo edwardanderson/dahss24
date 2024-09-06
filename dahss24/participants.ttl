@@ -47,20 +47,30 @@ dahss24:Ana a schema:Person;
 dahss24:Antonio a schema:Person;
     schema:name "Antonio";
     schema:memberOf <http://www.wikidata.org/entity/Q219694>;
-    schema:knowsLanguage "es", "en".
-<http://www.wikidata.org/entity/Q219694> schema:name "Complutense University of Madrid"@en.
+    schema:knowsLanguage "sp", "en".
+<http://www.wikidata.org/entity/Q219694> a schema:Organization;
+    schema:name "Complutense University of Madrid"@en;
+    schema:location <http://www.wikidata.org/entity/Q2807>.
+<http://www.wikidata.org/entity/Q2807> dc:name "Madrid".
 
 dahss24:Caterina a schema:Person;
     schema:name "Caterina";
     schema:memberOf <https://www.wikidata.org/entity/Q820887>;
     schema:knowsLanguage "en", "it".
- <https://www.wikidata.org/entity/Q820887> schema:name "University of Florence"@en.
+ <https://www.wikidata.org/entity/Q820887> a schema:Organization;
+     schema:name "University of Florence"@en;
+     schema:location <http://www.wikidata.org/entity/Q2044>.
+<http://www.wikidata.org/entity/Q2044> dc:name "Florence"@en.
+
 
 dahss24:David a schema:Person;
     schema:name "David";
     schema:memberOf <http://www.wikidata.org/entity/Q566189>;
     schema:knowsLanguage "en".
-<http://www.wikidata.org/entity/Q566189> schema:name "New York University Abu Dhabi"@en.
+<http://www.wikidata.org/entity/Q566189> a schema:Organization;
+    schema:name "New York University Abu Dhabi"@en;
+    schema:location <http://www.wikidata.org/entity/Q1519>.
+<http://www.wikidata.org/entity/Q1519> dc:name "Abu Dhabi".
 
 dahss24:Fernando a schema:Person:
     schema:name "Fernando";
