@@ -7,34 +7,75 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
 
-dahss24:Gabriela a schema:person ;
+dahss24:Gabriela a schema:Person ;
     schema:name "Gabriela" ;
     schema:memberOf <https://chc.ibl.waw.pl/en/>;
     schema:knowsLanguage "en" , "pl" , "fr" .
 <https://chc.ibl.waw.pl/en/> dc:name "Centrum Humanistyki Cyfrowej"@pl.
 
-dahss24:Adriana a schema:person;
+dahss24:Adriana a schema:Person;
     schema:name "Adriana";
     schema:memberOf <http://www.wikidata.org/entity/Q958650>;
     schema:knowsLanguage "en", "es".
 <http://www.wikidata.org/entity/Q958650> dc:name "University of Malaga"@en.
 
-dahss24:Alessia a schema:person;
+dahss24:Alessia a schema:Person;
     schema:name "Alessia";
     schema:memberOf <http://www.wikidata.org/entity/Q209344>;
     schema:knowsLanguage "en", "it".
 <http://www.wikidata.org/entity/Q209344> dc:name "Sapienza University of Rome"@en.
 
-dahss24:Ana a schema:person;
+dahss24:Ana a schema:Person;
     schema:name "Ana";
     schema:memberOf <http://www.wikidata.org/entity/Q29671>;
     schema:knowsLanguage "en", "sp".
 <http://www.wikidata.org/entity/Q29671> dc:name "University of Aveiro"@en.
 
-dahss24:Antonio a schema:person;
+dahss24:Antonio a schema:Person;
     schema:name "Antonio";
     schema:memberOf <http://www.wikidata.org/entity/Q219694>;
     schema:knowsLanguage "es", "en".
 <http://www.wikidata.org/entity/Q219694> dc:name "Complutense University of Madrid".
 
-dahss24:
+dahss24:Caterina a schema:Person;
+    schema:name "Caterina";
+    schema:memberOf <https://www.wikidata.org/entity/Q820887>;
+    schema:knowsLanguage "en", "it".
+ <https://www.wikidata.org/entity/Q820887> dc:name "University of Florence"@en.
+
+dahss24:David a schema:Person;
+    schema:name "David";
+    schema:memberOf <http://www.wikidata.org/entity/Q566189>;
+    schema:knowsLanguage "en".
+<http://www.wikidata.org/entity/Q566189> dc:name "New York University Abu Dhabi"@en.
+
+dahss24:Fernando a schema:Person:
+    schema:name "Fernando";
+    schema:knowsLanguage "en", "sp".
+
+dahss24:Giorgio a schema:Person;
+    schema:name "Giorgio";
+    schema:memberOf <http://www.wikidata.org/entity/Q1137665>;
+    schema:knowsLanguage "it", "es", "en".
+<http://www.wikidata.org/entity/Q1137665> dc:name "Ghent University"@en.
+
+dahss24:Javier a schema:Person;
+    schema:name "Javier";
+    schema:memberOf <http://www.wikidata.org/entity/Q160112>, <http://www.wikidata.org/entity/Q24543>;
+    schema:knowsLanguage "en","sp".
+<http://www.wikidata.org/entity/Q160112> dc:name "Prado Museum"@en.
+<<http://www.wikidata.org/entity/Q24543>> dc:name "Pompeu Fabra University"@en.
+
+dahss24:Lukas a schema:Person;
+    schema:name "Lukas";
+    schema:memberOf <http://www.wikidata.org/entity/Q374686>;
+    schema:knowsLanguage "en", "cs".
+<http://www.wikidata.org/entity/Q374686> dc:name "Czech Academy of Sciences".
+
+dahss24:Marcela a schema:Person;
+    schema:name "Marcela";
+    schema:memberOf <http://www.wikidata.org/entity/Q201492>; 
+    schema:knowsLanguage "en", "sp".
+  <http://www.wikidata.org/entity/Q201492> dc:name "McGill University"@en.
+
+dahss24: 
