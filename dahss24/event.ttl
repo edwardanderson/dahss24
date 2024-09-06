@@ -1,6 +1,5 @@
 # Order the resources consistently. 
 
-
 @base <https://dahss.iarthislab.eu/2024/kg/> .
 @prefix dahss24: <https://dahss.iarthislab.eu/2024/kg/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
