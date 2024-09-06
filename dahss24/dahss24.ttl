@@ -1,0 +1,60 @@
+@base <https://dahss.iarthislab.eu/2024/kg/> .
+@prefix dahss24: <https://dahss.iarthislab.eu/2024/kg/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
+@prefix schema: <https://schema.org/> .
+@prefix rel: <http://purl.org/vocab/relationship/> .
+
+dahss24:SummerSchool a dcmitype:Event ;
+    dc:type <http://www.wikidata.org/entity/Q647882> ;
+    dc:date "2024-09-02/2024-09-07"^^edtf:Interval ;
+    foaf:homepage <https://dahss.iarthislab.eu/2024>
+    schema:organizer <http://www.wikidata.org/entity/Q958650> ;
+    dc:title "Sustainability and Politics of AI"@en ;
+    dc:hasPart dahss24:TrackA , dahss24:TrackB ;
+    dc:language "en" ;
+    # TODO: Please add or mint URIs for attendees.
+    schema:attendee <https://hcommons.org/members/airun72/> , dahss24:Edward , dahss24:Gabriela
+
+<http://www.wikidata.org/entity/Q958650>
+    a schema:Organization ;
+    dc:type <http://vocab.getty.edu/aat/300312240> ;
+    schema:name "University of Malaga"@en ;
+    schema:name "Universidad de Málaga"@es ;
+    schema:name "Uniwersytet w Maladze"@pl ;
+    rel:employerOf <https://hcommons.org/members/airun72/> 
+
+<https://hcommons.org/members/airun72/>
+    a dc:Person ;
+    schema:name "Nuria" ;
+    rel:employedBy <http://www.wikidata.org/entity/Q958650> ;
+    schema:knowsLanguage "es" , "en"
+
+
+<https://dahss.iarthislab.eu/2024> a foaf:Document .
+
+dahss24:TrackA a dc:Event ;
+    dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
+    # TODO: swap Leo's DAHSS24 URI for his Orcid.
+    dc:creator dahss24:Leo
+
+dahss24:TrackB a dc:Event ;
+    dc:title "Art on the Web: Creating Cultural Heritage Knowledge Networks"@en ;
+    schema:perfomer dahss24:Edward ;
+    dc:subject <http://www.wikidata.org/entity/Q54837> , <http://www.wikidata.org/entity/Q54872> ;
+    # TODO: Please add or mint URIs for attendees.
+    schema:attendee <https://hcommons.org/members/airun72/> , dahss24:Edward
+
+<https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> ;
+
+dahss24:Gabriela a schema:Person ;
+    schema:name "Gabriela" ;
+    # TODO: institution URI please.
+    schema:memberOf ... ;
+    schema:knowsLanguage "en" , "pl" , "fr"
+
+dahss24:Edward schema:name "Edward Anderson" .
+
+<http://www.wikidata.org/entity/Q190804> schema:name "Rijksmuseum"@en .
+
+
