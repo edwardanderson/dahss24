@@ -11,25 +11,38 @@ dahss24:Gabriela a schema:Person ;
     schema:name "Gabriela" ;
     schema:memberOf <https://chc.ibl.waw.pl/en/>;
     schema:knowsLanguage "en" , "pl" , "fr" .
-<https://chc.ibl.waw.pl/en/> schema:name "Centrum Humanistyki Cyfrowej"@pl.
+<https://chc.ibl.waw.pl/en/> a schema:Organization;
+     schema:name "Centrum Humanistyki Cyfrowej"@pl;
+    schema:location <http://www.wikidata.org/entity/Q31487>.
+<http://www.wikidata.org/entity/Q31487> dc:name "Krakow"@en.
 
 dahss24:Adriana a schema:Person;
     schema:name "Adriana";
     schema:memberOf <http://www.wikidata.org/entity/Q958650>;
     schema:knowsLanguage "en", "es".
-<http://www.wikidata.org/entity/Q958650> schema:name "University of Malaga"@en.
+<http://www.wikidata.org/entity/Q958650> a schema:Organization;
+    schema:name "University of Malaga"@en;
+    schema:location <http://www.wikidata.org/entity/Q8851>.
+   <http://www.wikidata.org/entity/Q8851> dc:name "Malaga"@en. 
 
 dahss24:Alessia a schema:Person;
     schema:name "Alessia";
     schema:memberOf <http://www.wikidata.org/entity/Q209344>;
     schema:knowsLanguage "en", "it".
-<http://www.wikidata.org/entity/Q209344> schema:name "Sapienza University of Rome"@en.
+<http://www.wikidata.org/entity/Q209344> a schema:Organization;
+    schema:name "Sapienza University of Rome"@en;
+    schema:location <http://www.wikidata.org/entity/Q220>.
+<http://www.wikidata.org/entity/Q220> dc:name "Rome"@en.
+
 
 dahss24:Ana a schema:Person;
     schema:name "Ana";
     schema:memberOf <http://www.wikidata.org/entity/Q29671>;
     schema:knowsLanguage "en", "sp", "pt".
-<http://www.wikidata.org/entity/Q29671> schema:name "University of Aveiro"@en.
+<http://www.wikidata.org/entity/Q29671> a schema:Organization;
+    schema:name "University of Aveiro"@en;
+    schema:location <http://www.wikidata.org/entity/Q485581>.
+<http://www.wikidata.org/entity/Q485581> dc:name "Aveiro".
 
 dahss24:Antonio a schema:Person;
     schema:name "Antonio";
