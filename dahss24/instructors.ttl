@@ -21,3 +21,18 @@ dahss24:Edward
     schema:memberOf dahss24:Instructors24 ;
     foaf:based_near <http://www.wikidata.org/entity/Q727> ;
 .
+
+dahss24:Instructors24 a schema:Organization ;
+    schema:member dahss24: Leonardo Impett ;
+.
+
+<https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
+    dc:subject dahss24:Instructors24 ;
+.
+
+dahss24:Leonardo Impett
+rel:employedBy <https://es.wikipedia.org/wiki/Universidad_de_Cambridge> .
+    schema:name "Leonardo Impett" ;
+    schema:memberOf dahss24:Instructors24 ;
+    foaf:based_near <https://es.wikipedia.org/wiki/Londres> ;
+.
