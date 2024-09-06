@@ -28,6 +28,7 @@ dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
     schema:attendee dahss24:Miquel
     schema:attendee dahss24:Nuria
     schema:workPresented <https://www.youtube.com/watch?v=o1fq-5wsaYs> ;
+    
     # How do describe OCLC URIs?
     #I think like this 😊
     <https://www.worldcat.org/oclc/123456789> a schema:Movie ;
