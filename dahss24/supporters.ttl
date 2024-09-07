@@ -23,9 +23,9 @@ dahss24:SummerSchool24 a dcmitype:Event ;
 <https://catedratelefonicauma.es/>
     dc:hasPart <http://www.wikidata.org/entity/Q958650> ;
     dc:isRequiredBy dahss24:ArtHistoryDepartment ;
-    dc:researchAbout <https://www.wikidata.org/entity/Q5593> ;
-    dc:hasPartOf <https://www.wikidata.org/entity/Q1142924> ;
-    dc:at "Málaga" ;
+    <researchAbout> <https://www.wikidata.org/entity/Q5593> ;
+    dc:hasPart <https://www.wikidata.org/entity/Q1142924> ;
+    <at> "Málaga" ;
 .
 
 dahss24:ArtHistoryDepartment a foaf:Organization .
@@ -40,10 +40,10 @@ dahss24:ArtHistoryDepartment a foaf:Organization .
 .
 
 <https://42malaga.com/>
-    dc:in <https://www.polodigital.eu/42-malaga/> ;      
-    dc:at <https://www.wikidata.org/entity/Q2741623> ;
+    <in> <https://www.polodigital.eu/42-malaga/> ;      
+    <at> <https://www.wikidata.org/entity/Q2741623> ;
     dc:hasSpacialUnit <https://www.coleccionmuseoruso.es/> ;
-    dc:at <https://www.wikidata.org/entity/Q8851> ;
+    <at> <https://www.wikidata.org/entity/Q8851> ;
 .
 
 <https://www.wikidata.org/entity/Q2741623> schema:name "Tabacalera" .
