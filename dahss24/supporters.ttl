@@ -41,9 +41,12 @@ dahss24:ArtHistoryDepartment a foaf:Organization .
 
 <https://42malaga.com/>
     dc:in <https://www.polodigital.eu/42-malaga/> ;      
-    dc:at "Tabacalera" <https://www.wikidata.org/entity/Q2741623> ;
+    dc:at <https://www.wikidata.org/entity/Q2741623> ;
     dc:hasSpacialUnit <https://www.coleccionmuseoruso.es/> ;
-    dc:at <https://www.wikidata.org/entity/Q8851> .
+    dc:at <https://www.wikidata.org/entity/Q8851> ;
+.
+
+<https://www.wikidata.org/entity/Q2741623> schema:name "Tabacalera" .
 
 <https://www.coleccionmuseoruso.es/> a dc:Building .
 
@@ -53,4 +56,3 @@ dahss24:ArtHistoryDepartment a foaf:Organization .
     schema:name "Polo Digital"@en ;
     schema:name "Digital pole"@es ;
 .
- 
