@@ -1,7 +1,6 @@
 select ?artwork ?instructor
 where {
-    # TODO: Figure out how to query our KG for which
-    # artworks were mentioned on each track... (and
-    # by who)?
-    ....
+    ?track schema:workPresented ?presentation .
+    ?presentation schema:performer .
+    ?presentation schema:mentions ?artwork .
 }

@@ -1,0 +1,358 @@
+@prefix dahss24: <https://dahss.iarthislab.eu/2024/kg/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rel: <http://purl.org/vocab/relationship/> .
+@prefix schema: <https://schema.org/> .
+
+dahss24:Adriana a schema:Person ;
+    schema:knowsLanguage "en",
+        "es" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q958650> ;
+    schema:name "Adriana" .
+
+dahss24:Antonio a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q219694> ;
+    schema:name "Antonio" .
+
+dahss24:Caterina a schema:Person ;
+    schema:knowsLanguage "en",
+        "it" ;
+    schema:memberOf <https://www.wikidata.org/entity/Q820887> ;
+    schema:name "Caterina" .
+
+dahss24:David a schema:Person ;
+    schema:knowsLanguage "en" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q566189> ;
+    schema:name "David" .
+
+dahss24:EdwardAnderson rel:employedBy <http://www.wikidata.org/entity/Q190804> ;
+    foaf:based_near <http://www.wikidata.org/entity/Q727> ;
+    schema:memberOf dahss24:Instructors24 ;
+    schema:name "Edward Anderson" .
+
+dahss24:Fernando a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:name "Fernando" .
+
+dahss24:Giorgio a schema:Person ;
+    schema:knowsLanguage "en",
+        "es",
+        "it" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q1137665> ;
+    schema:name "Giorgio" .
+
+dahss24:Javier a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q160112>,
+        <http://www.wikidata.org/entity/Q24543> ;
+    schema:name "Javier" .
+
+dahss24:Lukas a schema:Person ;
+    schema:knowsLanguage "cs",
+        "en" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q374686> ;
+    schema:name "Lukas" .
+
+dahss24:Marcela a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q201492> ;
+    schema:name "Marcela" .
+
+dahss24:Melissa a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q104211654> ;
+    schema:name "Melissa" .
+
+dahss24:Miguel a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q958650> ;
+    schema:name "Miguel" .
+
+dahss24:Nelson a schema:Person ;
+    schema:knowsLanguage "en",
+        "pr" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q368643> ;
+    schema:name "Nelson" .
+
+dahss24:Qiuzi a schema:Person ;
+    schema:knowsLanguage "en",
+        "zh" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q1333303> ;
+    schema:name "Qiuzi" .
+
+dahss24:Raphael a schema:Person ;
+    schema:knowsLanguage "en",
+        "zh" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q262760> ;
+    schema:name "Raphael" .
+
+dahss24:Sami a schema:Person ;
+    schema:knowsLanguage "en",
+        "fi",
+        "fr" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q289348> ;
+    schema:name "Sami" .
+
+dahss24:Sofia a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q104211654> ;
+    schema:name "Sofia" .
+
+dahss24:SummerSchool23 a dcmitype:Event .
+
+dahss24:Susan a schema:Person ;
+    schema:knowsLanguage "en" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q3113011> ;
+    schema:name "Susan" .
+
+dahss24:TrackC a dc:Event ;
+    dc:creator <https://orcid.org/0000-0002-9246-6494> ;
+    dc:subject <http://www.wikidata.org/entity/Q124626159>,
+        <http://www.wikidata.org/entity/Q80083> ;
+    dc:title "Cartographies of Humanities@en"@en ;
+    schema:creator dahss24:Iacopo ;
+    schema:mentions <http://www.worldcat.org/oclc318875126> ;
+    schema:name "Nature, AI & cities"@en ;
+    schema:perfomer dahss24:Iacopo ;
+    schema:workPresented <https://docs.google.com/presentation/d/1zAPKbXtmyDfs3I8bOG9FkA08EV-RzQyf0d87JLMWjp0/present?slide=id.g2c00ea2287a_0_0> .
+
+dahss24:TrackD a dc:Event ;
+    dc:creator <https://orcid.org/0000-0002-9246-6494> ;
+    dc:subject <http://www.wikidata.org/entity/Q166118>,
+        <http://www.wikidata.org/entity/Q478798> ;
+    dc:title "Archive and Images"@en ;
+    schema:mentions <https://www.cyberneticforests.com/news/moth-glith-2024> ;
+    schema:perfomer dahss24:Eryk .
+
+dahss24:Victor a schema:Person ;
+    schema:knowsLanguage "en",
+        "sp" ;
+    schema:name "Victor" .
+
+<https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
+    dc:subject dahss24:Instructors24 .
+
+<https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> .
+
+<https://www.uma.es/sala-de-prensa/noticias/comeinzan-las-jornadas-internacionales-dedicadas-la-interaccion-entre-las-tecnologias-y-la-cultura/> dc:type <https://vocab.getty.edu/aat/300026437> ;
+    schema:about dahss24:SummerSchool24 .
+
+<http://www.wikidata.org/entity/Q1137665> schema:name "Ghent University"@en .
+
+<http://www.wikidata.org/entity/Q11712953> schema:name "IBL PAN" .
+
+<http://www.wikidata.org/entity/Q1333303> schema:name "Hong Kong University of Science and Technology" .
+
+<http://www.wikidata.org/entity/Q1519> dc:name "Abu Dhabi" .
+
+<http://www.wikidata.org/entity/Q160112> schema:name "Prado Museum"@en .
+
+<http://www.wikidata.org/entity/Q190804> schema:name "Rijksmuseum"@en .
+
+<http://www.wikidata.org/entity/Q201492> schema:name "McGill University"@en .
+
+<http://www.wikidata.org/entity/Q2044> dc:name "Florence"@en .
+
+<http://www.wikidata.org/entity/Q209344> a schema:Organization ;
+    schema:location <http://www.wikidata.org/entity/Q220> ;
+    schema:name "Sapienza University of Rome"@en .
+
+<http://www.wikidata.org/entity/Q219694> a schema:Organization ;
+    schema:location <http://www.wikidata.org/entity/Q2807> ;
+    schema:name "Complutense University of Madrid"@en .
+
+<http://www.wikidata.org/entity/Q220> dc:name "Rome"@en .
+
+<http://www.wikidata.org/entity/Q24543> schema:name "Pompeu Fabra University"@en .
+
+<http://www.wikidata.org/entity/Q262760> dc:name "Swiss Federal Institute of Technology in Lausanne" .
+
+<http://www.wikidata.org/entity/Q2807> dc:name "Madrid" .
+
+<http://www.wikidata.org/entity/Q289348> schema:name "London South Bank University" .
+
+<http://www.wikidata.org/entity/Q29671> a schema:Organization ;
+    schema:location <http://www.wikidata.org/entity/Q485581> ;
+    schema:name "University of Aveiro"@en .
+
+<http://www.wikidata.org/entity/Q3113011> schema:name "Hamilton College" .
+
+<http://www.wikidata.org/entity/Q31487> dc:name "Krakow"@en .
+
+<http://www.wikidata.org/entity/Q368643> schema:name "University of Coimbra"@en .
+
+<http://www.wikidata.org/entity/Q374686> schema:name "Czech Academy of Sciences" .
+
+<http://www.wikidata.org/entity/Q485581> dc:name "Aveiro" .
+
+<http://www.wikidata.org/entity/Q566189> a schema:Organization ;
+    schema:location <http://www.wikidata.org/entity/Q1519> ;
+    schema:name "New York University Abu Dhabi"@en .
+
+<http://www.wikidata.org/entity/Q727> schema:name "Amsterdam" .
+
+<http://www.wikidata.org/entity/Q8851> dc:name "Malaga"@en .
+
+<https://42malaga.com/> dc:at <https://www.wikidata.org/entity/Q2741623>,
+        <https://www.wikidata.org/entity/Q8851> ;
+    dc:hasSpacialUnit <https://www.coleccionmuseoruso.es/> ;
+    dc:in <https://www.polodigital.eu/42-malaga/> .
+
+<https://catedratelefonicauma.es/> dc:at "Málaga" ;
+    dc:hasPart <http://www.wikidata.org/entity/Q958650> ;
+    dc:hasPartOf <https://www.wikidata.org/entity/Q1142924> ;
+    dc:isRequiredBy dahss24:ArtHistoryDepartment ;
+    dc:researchAbout <https://www.wikidata.org/entity/Q5593> .
+
+<https://chc.ibl.waw.pl/en/> a schema:Organization ;
+    schema:location <http://www.wikidata.org/entity/Q31487> ;
+    schema:name "Centrum Humanistyki Cyfrowej"@pl .
+
+<https://dahss.iarthislab.eu/2024> a foaf:Document .
+
+dahss24:Alessia a schema:Person ;
+    schema:knowsLanguage "en",
+        "it" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q209344> ;
+    schema:name "Alessia" .
+
+dahss24:Ana a schema:Person ;
+    schema:knowsLanguage "en",
+        "pt",
+        "sp" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q29671> ;
+    schema:name "Ana" .
+
+dahss24:ArtHistoryDepartment a foaf:Organization .
+
+dahss24:Leonardo owl:sameAs <https://orcid.org/0000-0003-1774-5175> .
+
+dahss24:Marta a schema:Person ;
+    schema:knowsLanguage "en",
+        "pl" ;
+    schema:memberOf <http://www.wikidata.org/entity/Q11712953> ;
+    schema:name "Marta" .
+
+dahss24:SummerSchool24 a dcmitype:Event ;
+    dc:date "2024-09-02/2024-09-07"^^edtf:Interval ;
+    dc:hasPart dahss24:TrackA,
+        dahss24:TrackB ;
+    dc:language "en" ;
+    dc:title "Sustainability and Politics of AI"@en ;
+    dc:tookPlaceIn "Málaga" ;
+    dc:type <http://www.wikidata.org/entity/Q647882> ;
+    foaf:homepage <https://dahss.iarthislab.eu/2024> ;
+    schema:attendee dahss24:Edward,
+        dahss24:Gabriela,
+        <https://hcommons.org/members/airun72/> ;
+    schema:organizer <http://www.wikidata.org/entity/Q958650>,
+        <https://42malaga.com/>,
+        <https://catedratelefonicauma.es/>,
+        <https://www.polodigital.eu/42-malaga/> .
+
+dahss24:TrackA a dc:Event ;
+    dc:creator <https://orcid.org/0000-0003-1774-5175> ;
+    dc:subject <http://www.wikidata.org/entity/Q11660>,
+        <http://www.wikidata.org/entity/Q861716> ;
+    dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
+    schema:perfomer dahss24:Leonardo .
+
+dahss24:TrackB a dc:Event,
+        schema:ScreeningEvent ;
+    dc:subject <http://www.wikidata.org/entity/Q54837>,
+        <http://www.wikidata.org/entity/Q54872> ;
+    dc:title "Art on the Web: Creating Cultural Heritage Knowledge Networks"@en ;
+    schema:attendee dahss24:Alessia,
+        dahss24:Ana,
+        dahss24:Edward,
+        dahss24:Gabriela,
+        dahss24:Marta,
+        dahss24:Miquel,
+        dahss24:Nuria ;
+    schema:perfomer dahss24:Edward ;
+    schema:workPresented <https://www.youtube.com/watch?v=o1fq-5wsaYs> .
+
+<https://vocab.getty.edu/aat/300026437> schema:name "press release" .
+
+<https://www.coleccionmuseoruso.es/> a dc:Building .
+
+<https://www.wikidata.org/entity/Q2741623> schema:name "Tabacalera" .
+
+<https://www.wikidata.org/entity/Q5593> dc:wasBornAt <https://www.wikidata.org/entity/Q8851> .
+
+<https://www.wikidata.org/entity/Q820887> a schema:Organization ;
+    schema:location <http://www.wikidata.org/entity/Q2044> ;
+    schema:name "University of Florence"@en .
+
+<https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie ;
+    schema:creator dahss24:Edward ;
+    schema:mentions <http://www.worldcat.org/oclc318875126> ;
+    schema:name "Almost All the Art in the Rijksmuseum" .
+
+<http://www.wikidata.org/entity/Q104211654> schema:name "Freepik" .
+
+<http://www.worldcat.org/oclc318875126> schema:name "Metamorphosis Insectorum Surinamensium"@la .
+
+dahss24:Eryk rel:employedBy <http://www.wikidata.org/entity/Q35794> ;
+    foaf:based_near <http://www.wikidata.org/entity/Q350> ;
+    schema:memberOf dahss24:Instructors24 ;
+    schema:name "Eryk Salvaggio" .
+
+dahss24:Gabriela a schema:Person ;
+    schema:knowsLanguage "en",
+        "fr",
+        "pl" ;
+    schema:memberOf <https://chc.ibl.waw.pl/en/> ;
+    schema:name "Gabriela" .
+
+dahss24:Iacopo owl:sameAs <https://orcid.org/0000-0002-9246-6494> .
+
+<https://hcommons.org/members/airun72/> a dc:Person ;
+    rel:employedBy <http://www.wikidata.org/entity/Q958650> ;
+    schema:knowsLanguage "en",
+        "es" ;
+    schema:name "Nuria" .
+
+<https://www.polodigital.eu/42-malaga/> a schema:Organization ;
+    dc:type <http://vocab.getty.edu/aat/300312240> ;
+    schema:name "Polo Digital"@en,
+        "Digital pole"@es .
+
+<https://www.wikidata.org/entity/Q8851> a dc:Place .
+
+<https://orcid.org/0000-0003-1774-5175> rel:employedBy <http://www.wikidata.org/entity/Q35794> ;
+    foaf:based_near <http://www.wikidata.org/entity/Q350> ;
+    schema:memberOf dahss24:Instructors24 ;
+    schema:name "Leonardo Impett" .
+
+<https://orcid.org/0000-0002-9246-6494> rel:employedBy <http://www.wikidata.org/entity/Q206702>,
+        <http://www.wikidata.org/entity/Q6039122> ;
+    foaf:based_near <http://www.wikidata.org/entity/Q1492> ;
+    schema:memberOf dahss24:Instructors24 ;
+    schema:name "Iacopo Neri" .
+
+<http://www.wikidata.org/entity/Q958650> a schema:Organization,
+        schema:organization ;
+    dc:type <http://vocab.getty.edu/aat/300312240> ;
+    rel:employerOf <https://hcommons.org/members/airun72/> ;
+    schema:location <http://www.wikidata.org/entity/Q8851> ;
+    schema:name "University of Malaga"@en,
+        "Universidad de Málaga"@es,
+        "Uniwersytet w Maladze"@pl .
+
+dahss24:Instructors24 a schema:Organization ;
+    schema:member dahss24:Edward,
+        dahss24:Eryk,
+        <https://orcid.org/0000-0002-9246-6494>,
+        <https://orcid.org/0000-0003-1774-5175> .
