@@ -19,11 +19,12 @@ dahss24:Instructors24 a schema:Organization ;
 .
 
 dahss24:EdwardAnderson
-    rel:employedBy <http://www.wikidata.org/entity/Q190804> .
+    rel:employedBy <http://www.wikidata.org/entity/Q190804> ;
     schema:name "Edward Anderson" ;
     schema:memberOf dahss24:Instructors24 ;
     foaf:based_near <http://www.wikidata.org/entity/Q727> ;
 .
+
 <https://orcid.org/0000-0003-1774-5175>
     rel:employedBy <http://www.wikidata.org/entity/Q35794> .
     schema:name "Leonardo Impett" ;
