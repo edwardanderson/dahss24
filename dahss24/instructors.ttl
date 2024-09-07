@@ -30,6 +30,7 @@ dahss24:EdwardAnderson
     schema:name "Leonardo Impett" ;
     schema:memberOf dahss24:Instructors24 ;
     foaf:based_near <http://www.wikidata.org/entity/Q350> ;
+.
 
 <https://orcid.org/0000-0002-9246-6494>
     rel:employedBy <http://www.wikidata.org/entity/Q206702> , <http://www.wikidata.org/entity/Q6039122> ;
