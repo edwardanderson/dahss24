@@ -22,7 +22,7 @@ dahss24:SummerSchool24 a dcmitype:Event ;
 
 <https://catedratelefonicauma.es/>
     dc:hasPart <http://www.wikidata.org/entity/Q958650> ;
-    dc:isRequiredBy dahss22:ArtHistoryDepartment ;
+    dc:isRequiredBy dahss24:ArtHistoryDepartment ;
     dc:researchAbout <https://www.wikidata.org/entity/Q5593> ;
     dc:hasPartOf <https://www.wikidata.org/entity/Q1142924> ;
     dc:at "Málaga" ;
