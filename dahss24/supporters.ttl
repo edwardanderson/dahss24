@@ -28,7 +28,7 @@ dahss24:SummerSchool24 a dcmitype:Event ;
     dc:at "Málaga" ;
 .
 
-dahss22:ArtHistoryDepartment a foaf:Organization .
+dahss24:ArtHistoryDepartment a foaf:Organization .
 
 <https://www.wikidata.org/entity/Q5593> dc:wasBornAt <https://www.wikidata.org/entity/Q8851> .
 
