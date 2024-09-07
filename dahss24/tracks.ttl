@@ -12,7 +12,7 @@
 
 dahss24:TrackA a dc:Event ;
     dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
-    schema:perfomer dahss24:Leonardo ;
+    schema:performer dahss24:Leonardo ;
     dc:subject <http://www.wikidata.org/entity/Q861716> , <http://www.wikidata.org/entity/Q11660> ;
     dc:creator <https://orcid.org/0000-0003-1774-5175> ;
 .
@@ -33,7 +33,7 @@ dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
 
 dahss24:TrackC a dc:Event ;
     dc:title "Cartographies of Humanities@en"@en ;
-    schema:perfomer dahss24:Iacopo ;
+    schema:performer dahss24:Iacopo ;
     dc:subject <http://www.wikidata.org/entity/Q124626159> , <http://www.wikidata.org/entity/Q80083> ;
     dc:creator <https://orcid.org/0000-0002-9246-6494> ;
     schema:workPresented <https://docs.google.com/presentation/d/1zAPKbXtmyDfs3I8bOG9FkA08EV-RzQyf0d87JLMWjp0/present?slide=id.g2c00ea2287a_0_0> ;
@@ -44,7 +44,7 @@ dahss24:TrackC a dc:Event ;
 
 dahss24:TrackD a dc:Event ;
     dc:title "Archive and Images"@en ;
-    schema:perfomer dahss24:Eryk ;
+    schema:performer dahss24:Eryk ;
     dc:subject <http://www.wikidata.org/entity/Q166118>, <http://www.wikidata.org/entity/Q478798> ;
     dc:creator <https://orcid.org/0000-0002-9246-6494> ;
 .
