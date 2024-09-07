@@ -64,24 +64,71 @@ dahss24:Antonio a schema:Person ;
     schema:knowsLanguage "sp", "en" ;
 .
 
+<<<<<<< HEAD
+dahss24:David a schema:Person;
+    schema:name "David";
+    schema:memberOf <http://www.wikidata.org/entity/Q566189>;
+    schema:knowsLanguage "en".
+<http://www.wikidata.org/entity/Q566189> a schema:Organization;
+    schema:name "New York University Abu Dhabi"@en;
+    schema:location <http://www.wikidata.org/entity/Q1519>.
+<http://www.wikidata.org/entity/Q1519> schema:name "Abu Dhabi".
+=======
 <http://www.wikidata.org/entity/Q219694> a schema:Organization ;
     schema:name "Complutense University of Madrid"@en ;
     schema:location <http://www.wikidata.org/entity/Q2807> ;
 .
+>>>>>>> db7dca1ddc6f798ca61bcd28dbd87c4889ac3b66
 
 <http://www.wikidata.org/entity/Q2807> dc:name "Madrid" .
 
+<<<<<<< HEAD
+dahss24:Giorgio a schema:Person;
+    schema:name "Giorgio";
+    schema:memberOf <http://www.wikidata.org/entity/Q1137665>;
+    schema:knowsLanguage "it", "es", "en".
+<http://www.wikidata.org/entity/Q1137665> a schema:Organization;
+    schema:name "Ghent University"@en;
+    schema:location <http://www.wikidata.org/entity/Q1296>.
+<http://www.wikidata.org/entity/Q1296> schema:name "Ghent".
+=======
 dahss24:Caterina a schema:Person ;
     schema:name "Caterina" ;
     schema:memberOf <https://www.wikidata.org/entity/Q820887> ;
     schema:knowsLanguage "en", "it" .
+>>>>>>> db7dca1ddc6f798ca61bcd28dbd87c4889ac3b66
 
+<<<<<<< HEAD
+dahss24:Javier a schema:Person;
+    schema:name "Javier";
+    schema:memberOf <http://www.wikidata.org/entity/Q160112>, <http://www.wikidata.org/entity/Q24543>;
+    schema:knowsLanguage "en","sp".
+<http://www.wikidata.org/entity/Q160112> a schema:Organization.
+    schema:name "Prado Museum"@en;
+    schema:location <http://www.wikidata.org/entity/Q2807>.
+<http://www.wikidata.org/entity/Q2807> dc:name "Madrid".
+=======
 <https://www.wikidata.org/entity/Q820887> a schema:Organization ;
      schema:name "University of Florence"@en ;
      schema:location <http://www.wikidata.org/entity/Q2044> ;
 .
+>>>>>>> db7dca1ddc6f798ca61bcd28dbd87c4889ac3b66
 
+<<<<<<< HEAD
+<http://www.wikidata.org/entity/Q24543> schema:Organization;
+    schema:name "Pompeu Fabra University"@en;
+    schema:location <http://www.wikidata.org/entity/Q1492>.
+<http://www.wikidata.org/entity/Q1492> schema:name "Barcelona"@en.
+
+
+dahss24:Lukas a schema:Person;
+    schema:name "Lukas";
+    schema:memberOf <http://www.wikidata.org/entity/Q374686>;
+    schema:knowsLanguage "en", "cs".
+<http://www.wikidata.org/entity/Q374686> schema:name "Czech Academy of Sciences".
+=======
 <http://www.wikidata.org/entity/Q2044> dc:name "Florence"@en .
+>>>>>>> db7dca1ddc6f798ca61bcd28dbd87c4889ac3b66
 
 dahss24:David a schema:Person ;
     schema:name "David" ;
