@@ -12,9 +12,6 @@ where {
   
   	optional {
     	?track schema:workPresented ?presentation .
-    }
- 
-    optional {
         ?presentation schema:mentions ?artwork .
     }
 }
