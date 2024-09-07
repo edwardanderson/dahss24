@@ -7,7 +7,7 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
 
-dahss24:SummerSchool24 a dcmitype: Event ; 
+dahss24:SummerSchool24 a dcmitype:Event ; 
     dc:type <http://www.wikidata.org/entity/Q647882> ;
     foaf:homepage <https://dahss.iarthislab.eu/2024> ;
     dc:title "Sustainability and Politics of AI"@en ;
