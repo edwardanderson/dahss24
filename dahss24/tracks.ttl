@@ -19,7 +19,7 @@ dahss24:TrackA a dc:Event ;
 
 dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
     dc:title "Art on the Web: Creating Cultural Heritage Knowledge Networks"@en ;
-    schema:perfomer dahss24:Edward ;
+    schema:performer dahss24:Edward ;
     dc:subject <http://www.wikidata.org/entity/Q54837> , <http://www.wikidata.org/entity/Q54872> ;
     schema:attendee dahss24:Edward ;
     schema:attendee dahss24:Gabriela ;
