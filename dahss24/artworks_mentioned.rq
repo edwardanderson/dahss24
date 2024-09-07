@@ -1,7 +1,7 @@
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 prefix schema: <https://schema.org/>
 
-select ?title ?artwork ?instructor
+select ?title ?instructor ?artwork
 where {
     ?track a dc:Event ;
   		dc:title ?title .
@@ -12,6 +12,9 @@ where {
   
   	optional {
     	?track schema:workPresented ?presentation .
-    	?presentation schema:mentions ?artwork .
+    }
+ 
+    optional {
+        ?presentation schema:mentions ?artwork .
     }
 }
