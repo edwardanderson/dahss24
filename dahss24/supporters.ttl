@@ -10,42 +10,45 @@
 dahss24: SummerSchool24 a dcmitype: Event ; 
     dc:type <http://www.wikidata.org/entity/Q647882> ;
     foaf:homepage <https://dahss.iarthislab.eu/2024> ;
-    schema:organizer <http://www.wikidata.org/entity/Q958650> ;
     dc:title "Sustainability and Politics of AI"@en ;
-    schema:organizer <https://catedratelefonicauma.es/> , schema:organicer <https://42malaga.com/> , schema: organizer <https://www.polodigital.eu/42-malaga/> .
-    dc:takePlacein "Málaga".
+    schema:organizer <http://www.wikidata.org/entity/Q958650> ;
+    schema:organizer <https://catedratelefonicauma.es/> ;
+    schema:organizer <https://42malaga.com/> ;
+    schema:organizer <https://www.polodigital.eu/42-malaga/> ;
+    dc:tookPlaceIn "Málaga" ;
+.
 
-<https://www.wikidata.org/wiki/Q8851> a dc:place 
+<https://www.wikidata.org/entity/Q8851> a dc:Place .
 
 <https://catedratelefonicauma.es/>
     dc:hasPart <http://www.wikidata.org/entity/Q958650> ;
-    dc:isRequiredBy "Art History Department" foaf:organization ;
-    dc:researchAbout <https://www.wikidata.org/wiki/Q5593> [
-      dc:wasBornAt <https://www.wikidata.org/wiki/Q8851>
-    ];
-    dc:hasPartOf <https://www.wikidata.org/wiki/Q1142924>
-    dc:at "Málaga".
+    dc:isRequiredBy dahss22:ArtHistoryDepartment ;
+    dc:researchAbout <https://www.wikidata.org/entity/Q5593> ;
+    dc:hasPartOf <https://www.wikidata.org/entity/Q1142924> ;
+    dc:at "Málaga" ;
+.
+
+dahss22:ArtHistoryDepartment a foaf:Organization .
+
+<https://www.wikidata.org/entity/Q5593> dc:wasBornAt <https://www.wikidata.org/entity/Q8851> .
 
 <http://www.wikidata.org/entity/Q958650>
     a schema:organization ;
     dc:type <http://vocab.getty.edu/aat/300312240> ;
     schema:name "University of Malaga"@en ;
-    schema:name "Universidad de Málaga"@es .
+    schema:name "Universidad de Málaga"@es ;
+.
 
 <https://42malaga.com/>
     dc:in "Polo Digital" <https://www.polodigital.eu/42-malaga/> ;
-      dc:at "Tabacalera" <https://www.wikidata.org/wiki/Q2741623> ;
-    ] ;
+    dc:at "Tabacalera" <https://www.wikidata.org/entity/Q2741623> ;
     dc:hasSpacialUnit <https://www.coleccionmuseoruso.es/> dc:building ;
-    dc:at <https://www.wikidata.org/wiki/Q8851> .
+    dc:at <https://www.wikidata.org/entity/Q8851> .
 
 <https://www.polodigital.eu/42-malaga/> 
-     a schema:organization; 
-     dc:type <http://vocab.getty.edu/aat/300312240> ;
-     schema:name "Polo Digital"@en ;
-    schema:name "Digital pole"@es .
-
-
-    
-
-    
+    a schema:Organization ; 
+    dc:type <http://vocab.getty.edu/aat/300312240> ;
+    schema:name "Polo Digital"@en ;
+    schema:name "Digital pole"@es ;
+.
+ 
