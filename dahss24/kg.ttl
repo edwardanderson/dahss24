@@ -3,6 +3,7 @@
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oclc: <http://www.worldcat.org/oclc/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
@@ -122,9 +123,9 @@ dahss24:TrackC a dc:Event ;
         <http://www.wikidata.org/entity/Q80083> ;
     dc:title "Cartographies of Humanities@en"@en ;
     schema:creator dahss24:Iacopo ;
-    schema:mentions <http://www.worldcat.org/oclc318875126> ;
+    schema:mentions oclc:318875126 ;
     schema:name "Nature, AI & cities"@en ;
-    schema:perfomer dahss24:Iacopo ;
+    schema:performer dahss24:Iacopo ;
     schema:workPresented <https://docs.google.com/presentation/d/1zAPKbXtmyDfs3I8bOG9FkA08EV-RzQyf0d87JLMWjp0/present?slide=id.g2c00ea2287a_0_0> .
 
 dahss24:TrackD a dc:Event ;
@@ -133,7 +134,7 @@ dahss24:TrackD a dc:Event ;
         <http://www.wikidata.org/entity/Q478798> ;
     dc:title "Archive and Images"@en ;
     schema:mentions <https://www.cyberneticforests.com/news/moth-glith-2024> ;
-    schema:perfomer dahss24:Eryk .
+    schema:performer dahss24:Eryk .
 
 dahss24:Victor a schema:Person ;
     schema:knowsLanguage "en",
@@ -266,7 +267,7 @@ dahss24:TrackA a dc:Event ;
     dc:subject <http://www.wikidata.org/entity/Q11660>,
         <http://www.wikidata.org/entity/Q861716> ;
     dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
-    schema:perfomer dahss24:Leonardo .
+    schema:performer dahss24:Leonardo .
 
 dahss24:TrackB a dc:Event,
         schema:ScreeningEvent ;
@@ -280,7 +281,7 @@ dahss24:TrackB a dc:Event,
         dahss24:Marta,
         dahss24:Miquel,
         dahss24:Nuria ;
-    schema:perfomer dahss24:Edward ;
+    schema:performer dahss24:Edward ;
     schema:workPresented <https://www.youtube.com/watch?v=o1fq-5wsaYs> .
 
 <https://vocab.getty.edu/aat/300026437> schema:name "press release" .
@@ -297,12 +298,12 @@ dahss24:TrackB a dc:Event,
 
 <https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie ;
     schema:creator dahss24:Edward ;
-    schema:mentions <http://www.worldcat.org/oclc318875126> ;
+    schema:mentions oclc:318875126 ;
     schema:name "Almost All the Art in the Rijksmuseum" .
 
 <http://www.wikidata.org/entity/Q104211654> schema:name "Freepik" .
 
-<http://www.worldcat.org/oclc318875126> schema:name "Metamorphosis Insectorum Surinamensium"@la .
+oclc:318875126 schema:name "Metamorphosis Insectorum Surinamensium"@la .
 
 dahss24:Eryk rel:employedBy <http://www.wikidata.org/entity/Q35794> ;
     foaf:based_near <http://www.wikidata.org/entity/Q350> ;
@@ -356,3 +357,4 @@ dahss24:Instructors24 a schema:Organization ;
         dahss24:Eryk,
         <https://orcid.org/0000-0002-9246-6494>,
         <https://orcid.org/0000-0003-1774-5175> .
+
