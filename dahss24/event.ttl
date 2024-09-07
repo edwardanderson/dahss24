@@ -46,17 +46,8 @@ dahss24:SummerSchool24 a dcmitype:Event ;
     schema:knowsLanguage "es" , "en" ;
 .
 
-
 <https://dahss.iarthislab.eu/2024> a foaf:Document .
-
-.
-
-
 
 <http://www.wikidata.org/entity/Q727> schema:name "Amsterdam" .
 
-
-
 <http://www.wikidata.org/entity/Q190804> schema:name "Rijksmuseum"@en .
-
-
