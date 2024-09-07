@@ -4,6 +4,7 @@
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 @prefix edtf: <http://id.loc.gov/datatypes/edtf/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oclc: <http://www.worldcat.org/oclc> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix schema: <https://schema.org/> .
@@ -12,14 +13,14 @@
 dahss24:TrackA a dc:Event ;
     dc:title "Visual AI for Visual Culture. New Tools/Old Critique"@en ;
     schema:perfomer dahss24:Leonardo ;
-    dc:subject <http://www.wikidata.org/entity/Q861716>, <http://www.wikidata.org/entity/Q11660> ;
-    dc:creator <https://orcid.org/0000-0003-1774-5175>.
+    dc:subject <http://www.wikidata.org/entity/Q861716> , <http://www.wikidata.org/entity/Q11660> ;
+    dc:creator <https://orcid.org/0000-0003-1774-5175> ;
+.
 
 dahss24:TrackB a dc:Event , schema:ScreeningEvent ;
     dc:title "Art on the Web: Creating Cultural Heritage Knowledge Networks"@en ;
     schema:perfomer dahss24:Edward ;
     dc:subject <http://www.wikidata.org/entity/Q54837> , <http://www.wikidata.org/entity/Q54872> ;
-    # TODO: Please add or mint URIs for attendees.
     schema:attendee dahss24:Edward ;
     schema:attendee dahss24:Gabriela ;
     schema:attendee dahss24:Marta ;
@@ -37,22 +38,26 @@ dahss24:TrackC a dc:Event ;
     dc:creator <https://orcid.org/0000-0002-9246-6494> ;
     schema:workPresented <https://docs.google.com/presentation/d/1zAPKbXtmyDfs3I8bOG9FkA08EV-RzQyf0d87JLMWjp0/present?slide=id.g2c00ea2287a_0_0> ;
     schema:name "Nature, AI & cities"@en ;
-    schema:creator <Iacopo> .
-    schema:mentions oclc:318875126 .
+    schema:creator <Iacopo> ;
+    schema:mentions oclc:318875126 ;
+.
 
 dahss24:TrackD a dc:Event ;
     dc:title "Archive and Images"@en ;
     schema:perfomer dahss24:Eryk ;
     dc:subject <http://www.wikidata.org/entity/Q166118>, <http://www.wikidata.org/entity/Q478798> ;
-    dc:creator <https://orcid.org/0000-0002-9246-6494>.
+    dc:creator <https://orcid.org/0000-0002-9246-6494> ;
+.
 
 dahss24:Iacopo owl:sameAs <https://orcid.org/0000-0002-9246-6494> .
+
+dahss24:Leonardo owl:sameAs <https://orcid.org/0000-0003-1774-5175> .
 
 dahss24:TrackD a dc:Event ;
     schema:mentions <https://www.cyberneticforests.com/news/moth-glith-2024> ;
 .
 
-oclc:318875126 schema:name "Metamorphosis Insectorum Surinamensium"@la
+oclc:318875126 schema:name "Metamorphosis Insectorum Surinamensium"@la .
 
 <https://www.youtube.com/watch?v=o1fq-5wsaYs> a schema:Movie ;
     schema:name "Almost All the Art in the Rijksmuseum" ;
@@ -60,4 +65,4 @@ oclc:318875126 schema:name "Metamorphosis Insectorum Surinamensium"@la
     schema:creator <Edward> ;
 .
 
-<https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> ;
+<https://docs.google.com/presentation/d/1dJyiOqZiXy9i-pt4NRnQtfF-yM2uWD-yt7zUXnJOSfo> schema:teaches <http://www.wikidata.org/entity/Q54872> .
