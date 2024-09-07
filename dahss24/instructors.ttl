@@ -46,10 +46,6 @@ dahss24:Eryk
     foaf:based_near <http://www.wikidata.org/entity/Q350> ;
 .
 
-dahss24:Instructors24 a schema:Organization ;
-    schema:member dahss24: Leonardo Impett ;
-.
-
 <https://dahss.iarthislab.eu/2024/speakers/> a schema:WebPage ;
     dc:subject dahss24:Instructors24 ;
 .
